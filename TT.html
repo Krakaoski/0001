@@ -1,0 +1,95 @@
+<html>
+<head>
+ <title>Ryan North</title>
+  <style>
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+h1 {
+  opacity: 0;
+  font-family: impact;
+  color: #fff;
+  font-size:150;
+  animation: fade-in 1s ease-in forwards;
+  transition: opacity 1s ease-in;
+  text-align: right;
+  position: absolute;
+  top: 10%;
+  left: 50;
+  right: 0;
+  margin:10;
+}
+
+
+.fade-in {
+  opacity: 1;
+}
+
+text {
+  opacity: 0;
+  font-family:courier;
+  color: #fff;
+  font-size:50;
+  animation: fade-in 2s ease-in forwards;
+  transition: opacity 1s ease-in;
+  text-align: right;
+  top: 65%;
+  right: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
+.outline-container {
+  display: inline-block;
+  outline: 5px solid maroon;
+  width: 800px;
+  position: relative;
+  left: 39%;
+}
+
+.container {
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  padding-top: 30;
+  padding-left:10;
+  width: 50%;
+  height: 350;
+}
+
+img {
+  max-width: 100%;
+  max-height: 700;
+}
+
+body {
+  background-image: url('fade.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+
+
+  </style>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+<body>
+  <a href="index.html">
+   <h1 id="heading" class="fade-in">HOW TO INVENT EVERYTHING</h1><br>
+   <text id="text" class="fade-in outline-container">A SURVIVAL GUIDE FOR <br>THE STRANDED TIME TRAVELER</text>
+   <div class="container"> <img src="grrr.gif" alt="gear"> </div>
+  </a>
+  
+</body>
+</html>
